@@ -1,0 +1,6 @@
+//to append an array
+db.user.update(
+... {'name':'shivam'},
+... {$push:{'book':'hello'}}
+... )
+
